@@ -36,10 +36,12 @@
    - **Purpose**:
      - Flowcharts are diagrams that visually represent the flow of a process or system, illustrating the steps involved and the order in which they occur.
      - They are used to simplify complex processes, making it easier to understand and communicate how a process works.
-   - **Examples**:
-    ![Flowcharts](8.ex-1.png)   
-    ![Flowcharts](9.ex-2.png)   
-    ![Flowcharts](10.ex-3.png)   
+     **Examples**:
+
+      - ![Flowcharts](8.ex-1.png)   
+      - ![Flowcharts](9.ex-2.png)   
+      - ![Flowcharts](10.ex-3.png)   
+
    - **Basic Components**:
      - **Start/End**: Represented by oval shapes, these indicate the beginning and end points of the flowchart.
      - **Process**: Represented by rectangles, these indicate steps or actions taken in the process.

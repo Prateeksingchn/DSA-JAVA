@@ -1,6 +1,5 @@
 
-
-
+## Programming Concepts Index
 
 1. [Flowcharts](#flowcharts)
    - Purpose

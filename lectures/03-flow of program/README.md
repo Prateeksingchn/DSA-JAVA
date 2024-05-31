@@ -36,7 +36,8 @@
    - **Purpose**:
      - Flowcharts are diagrams that visually represent the flow of a process or system, illustrating the steps involved and the order in which they occur.
      - They are used to simplify complex processes, making it easier to understand and communicate how a process works.
-     **Examples**:
+
+   - **Examples**:
 
       - ![Flowcharts](8.ex-1.png)   
       - ![Flowcharts](9.ex-2.png)   

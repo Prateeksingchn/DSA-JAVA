@@ -1,4 +1,6 @@
 
+## Programming Concepts Index
+
 ---
 1. [Types of Programming Languages](#types-of-language)
    - Procedural Languages
@@ -197,5 +199,5 @@
      - **Performance Overhead**: Can introduce pauses in program execution due to the garbage collection process.
      - **Unpredictability**: May lead to unpredictable pauses in real-time or performance-critical applications.
 
-    [Back to Top](#programming-concepts-index)
+[Back to Top](#programming-concepts-index)
 ---   

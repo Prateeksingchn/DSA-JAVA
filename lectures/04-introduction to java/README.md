@@ -2,7 +2,7 @@
 
 ### Java Code Executes
 
-![Java Code Executes](1.Java%20Intro.png)
+![Java Code Executes](./Images/1.Java%20Intro.png)
 
 ### Simple Explanation
 
@@ -27,11 +27,10 @@
      6. **Running the Program**:
         - The translated machine code runs on the host machine's processor, executing the program's instructions.
 
-![Java Code Executes](Java%20Intro2.png)
+![Java Code Executes](./Images/Java%20Intro2.png)
 
--
 
-   - **Components Involved**:
+## - **Components Involved**:
      - **Java Source Code**: The human-readable code you write.
      - **Java Compiler (`javac`)**: Converts source code to bytecode.
      - **Bytecode**: Intermediate, platform-independent code.
@@ -39,9 +38,7 @@
      - **Just-In-Time (JIT) Compiler**: Converts bytecode to machine code during execution.
 
 ### JDK vs JRE vs JVM vs JIT
-![Java Code Executes](Java%20Intro3.png)
-![Java Code Executes](Java%20Intro4.png)
-
+![Java Code Executes](./Images/Java%20Intro3.png)
 
 ### Simple Explanation
 
@@ -52,10 +49,9 @@
    - **JIT**: The Just-In-Time (JIT) compiler is a special assistant to the chef. It speeds up the cooking process (execution) by translating bytecode into machine code right before it runs.
 
 
-![Java Code Executes](Java%20Intro6.png)
-![Java Code Executes](Java%20Intro6.png)   
-
 ### Detailed Definition
+
+![Java Code Executes](./Images/Java%20Intro4.png) 
 
 **JDK (Java Development Kit)**:
    - **Purpose**: The JDK is a software development kit used to develop Java applications and applets.
@@ -73,6 +69,9 @@
      - **Core Libraries**: Pre-compiled class libraries necessary for running Java applications.
      - **Other Resources**: Configuration files, runtime libraries, etc.
    - **Usage**: Required by users to run Java applications.
+
+---
+![Java Code Executes](./Images/Java%20Intro5.png)
 
 **JVM (Java Virtual Machine)**:
    - **Purpose**: The JVM is a virtual machine that enables a computer to run Java programs by executing Java bytecode.
@@ -102,6 +101,8 @@
   - Contains JRE
     - Contains JVM
       - Contains JIT
+
+![Java Code Executes](./Images/Java%20Intro6.png)   
 
 ### Examples
 

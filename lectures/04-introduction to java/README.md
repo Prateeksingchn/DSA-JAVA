@@ -42,6 +42,13 @@
 ---
 
 ### JDK vs JRE vs JVM vs JIT
+
+## Visual Representation
+
+- **JDK**
+  - Contains JRE
+    - Contains JVM
+      - Contains JIT
 ![Java Code Executes](./Images/Java%20Intro3.png)
 
 ### Simple Explanation
@@ -99,12 +106,6 @@
 - **JRE includes JVM**: The JRE contains the JVM, which is responsible for running Java applications.
 - **JVM includes JIT**: The JVM includes the JIT compiler to optimize the execution of Java programs.
 
-### Visual Representation
-
-- **JDK**
-  - Contains JRE
-    - Contains JVM
-      - Contains JIT
 
 ![Java Code Executes](./Images/Java%20Intro6.png)   
 

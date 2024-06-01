@@ -29,13 +29,17 @@
 
 ![Java Code Executes](./Images/Java%20Intro2.png)
 
+---
 
-## - **Components Involved**:
-     - **Java Source Code**: The human-readable code you write.
-     - **Java Compiler (`javac`)**: Converts source code to bytecode.
-     - **Bytecode**: Intermediate, platform-independent code.
-     - **Java Virtual Machine (JVM)**: Executes bytecode on any platform with a compatible JVM.
-     - **Just-In-Time (JIT) Compiler**: Converts bytecode to machine code during execution.
+## Components Involved
+
+- **Java Source Code**: The human-readable code you write.
+- **Java Compiler (`javac`)**: Converts source code to bytecode.
+- **Bytecode**: Intermediate, platform-independent code.
+- **Java Virtual Machine (JVM)**: Executes bytecode on any platform with a compatible JVM.
+- **Just-In-Time (JIT) Compiler**: Converts bytecode to machine code during execution.
+
+---
 
 ### JDK vs JRE vs JVM vs JIT
 ![Java Code Executes](./Images/Java%20Intro3.png)

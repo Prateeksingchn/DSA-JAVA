@@ -428,26 +428,33 @@ Handling user input in Java is commonly done using the `Scanner` class, which is
 
 ---
 
-## Sum of two numbers in Java
 
-    ```java
-        import java.util.Scanner;
-        public class Sum {
-            public static void main(String[] args) {
-                Scanner input = new Scanner(System.in);
-                System.out.print("Enter first number");
-                int num1 = input.nextInt();
-                System.out.print("Enter second number");
-                int num2 = input.nextInt();
-                int sum = num1+num2;
-                System.out.println("Sum = "+sum);
-            }
-        }
-     ```
-    - **Output**:
-    Enter first number 10
-    Enter first number 20
-    Sum = 30
+## Sum of Two Numbers in Java
+
+```java
+import java.util.Scanner;
+
+public class Sum {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int num1 = input.nextInt();
+        System.out.print("Enter second number: ");
+        int num2 = input.nextInt();
+        int sum = num1 + num2;
+        System.out.println("Sum = " + sum);
+    }
+}
+```
+
+### Example Output
+
+**Output:**
+```
+Enter first number: 10
+Enter second number: 20
+Sum = 30
+```
 
 ---
 

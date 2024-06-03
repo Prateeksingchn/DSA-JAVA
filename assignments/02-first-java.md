@@ -264,9 +264,92 @@ The result is: 15.0
 
 ---
 
-5. Take 2 numbers as input and print the largest number.
-6. Input currency in rupees and output in USD.
-7. To calculate Fibonacci Series up to n numbers.
-8. To find out whether the given String is Palindrome or not.
-9. To find Armstrong Number between two given number.
+- 5. Take 2 numbers as input and print the largest number.
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class PrintLargerNum {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter num1");
+        int num1 = input.nextInt();
+
+        System.out.println("Enter num2");
+        int num2 = input.nextInt();
+
+        if (num1 > num2) {
+            System.out.println("The larger num is: " + num1);
+        } else if (num1 < num2) {
+            System.out.println("The larger num is: " + num2);
+        } else {
+            System.out.println("Both numbers are equal.");
+        }
+
+    }
+}
+
+```
+
+### Example Input and Output:
+
+**Input:**
+```
+Enter num1:
+15
+Enter num2:
+25
+```
+
+**Output:**
+```
+The larger number is: 25
+```
+---
+
+
+- 6. Input currency in rupees and output in USD.
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class CurrencyConverter {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the amount in rupees:");
+        double rupees = input.nextDouble();
+
+        double conversionRate = 80.0; // Example conversion rate
+
+        double dollars = rupees / conversionRate;
+
+        System.out.println("Your amount in dollars: " + dollars);
+
+    }
+}
+
+```
+### Example Input and Output:
+
+**Input:**
+```
+Enter the amount in rupees:
+8000
+```
+
+**Output:**
+```
+Your amount in dollars: 100.00
+```
+
+
+- 7. To calculate Fibonacci Series up to n numbers.
+- 8. To find out whether the given String is Palindrome or not.
+- 9. To find Armstrong Number between two given number.
 

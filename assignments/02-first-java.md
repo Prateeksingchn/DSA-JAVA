@@ -1,8 +1,6 @@
 
 ## Write Java programs for the following:
 
-Here's the updated content for your README file with the necessary corrections and formatting:
-
 ---
 
 ### 1. Write a program to print whether a number is even or odd, also take input from the user.
@@ -43,7 +41,7 @@ Odd
 
 ---
 
-2. Take name as input and print a greeting message for that particular name.
+### 2. Take name as input and print a greeting message for that particular name.
 
 ```Java
 package assignments;
@@ -73,7 +71,7 @@ Hello Prateek
 ---
 
 
-3. Write a program to input principal, time, and rate (P, T, R) from the user and
+### 3. Write a program to input principal, time, and rate (P, T, R) from the user and
 find Simple Interest.
 
 ```java
@@ -121,7 +119,7 @@ The Simple Interest is: 100
 ```
 ---
 
-4. Take in two numbers and an operator (+, -, *, /) and calculate the value.
+### 4. Take in two numbers and an operator (+, -, *, /) and calculate the value.
 - (Using if conditions)
 
 ```java

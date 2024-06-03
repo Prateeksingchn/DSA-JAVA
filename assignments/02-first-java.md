@@ -122,7 +122,150 @@ The Simple Interest is: 100
 ---
 
 4. Take in two numbers and an operator (+, -, *, /) and calculate the value.
-(Use if conditions)
+- (Using if conditions)
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the first number:");
+        double num1 = input.nextDouble();
+
+        System.out.println("Enter an operator (+, -, *, /):");
+        char operator = input.next().charAt(0);
+
+        System.out.println("Enter the second number:");
+        double num2 = input.nextDouble();
+
+        // Variable to store the result
+        double result = 0;
+
+        if (operator == '+') {
+            result = num1 + num2;
+        } else if (operator == '-') {
+            result = num1 - num2;
+        } else if (operator == '*') {
+            result = num1 * num2;
+        } else if (operator == '/') {
+            // Check for division by zero(if 2nd num is 0 or not)
+            if (num2 != 0) {
+                result = num1 / num2;
+            } else {
+                System.out.println("Error: Division by zero is not allowed.");
+                input.close();
+                return;
+            }
+        } else {
+            System.out.println("Error: Invalid operator.");
+            input.close();
+            return;
+        }
+
+        System.out.println("The result is: " + result);
+
+        input.close();
+    }
+}
+```
+### Example Input and Output:
+
+**Input:**
+```
+Enter the first number:
+10
+Enter an operator (+, -, *, /):
++
+Enter the second number:
+5
+```
+
+**Output:**
+```
+The result is: 15.0
+```
+
+- (Using switch operator)
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class CalculatorWithSwitch {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the first number:");
+        double num1 = input.nextDouble();
+
+        System.out.println("Enter an operator (+, -, *, /):");
+        char operator = input.next().charAt(0);
+
+        System.out.println("Enter the second number:");
+        double num2 = input.nextDouble();
+
+        // Variable to store the result
+        double result = 0;
+
+        // Perform the calculation based on the operator using switch
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            case '/':
+                // Check for division by zero(if num2 = 0, then error)
+                if (num2 != 0) {
+                    result = num1 / num2;
+                } else {
+                    System.out.println("Error: Division by zero is not allowed.");
+                    input.close();
+                    return;
+                }
+                break;
+            default:
+
+                System.out.println("Error: Invalid operator.");
+                input.close();
+                return;
+        }
+
+        System.out.println("The result is: " + result);
+
+        input.close();
+    }
+}
+
+```
+### Example Input and Output:
+
+**Input:**
+```
+Enter the first number:
+10
+Enter an operator (+, -, *, /):
++
+Enter the second number:
+5
+```
+
+**Output:**
+```
+The result is: 15.0
+```
+
+---
+
 5. Take 2 numbers as input and print the largest number.
 6. Input currency in rupees and output in USD.
 7. To calculate Fibonacci Series up to n numbers.

@@ -19,7 +19,7 @@ Certainly! Here's the updated index page for your README file, with two separate
 
 ## Questions
 
-### 1. Check Even or Odd
+# 1. Check Even or Odd
 Quest- Write a program to print whether a number is even or odd, also take input from the user.
 
 ```Java
@@ -58,7 +58,7 @@ Odd
 [Back to the top](#index)
 ---
 
-### 2. Greeting Message
+# 2. Greeting Message
 Ques- Take name as input and print a greeting message for that particular name.
 
 ```Java
@@ -90,7 +90,7 @@ Hello Prateek
 [Back to the top](#index)
 ---
 
-### 3. Calculate Simple Interest
+# 3. Calculate Simple Interest
 Ques- Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
 
 ```java
@@ -137,7 +137,7 @@ The Simple Interest is: 100
 [Back to the top](#index)
 ---
 
-### 4. Calculator
+# 4. Calculator
 Ques- Take in two numbers and an operator (+, -, *, /) and calculate the value.
    ## [4.1 Using If-Else](#41-using-if-else)
 
@@ -281,7 +281,7 @@ The result is: 15.0
 [Back to the top](#index)
 ---   
 
-### 5. Print Larger Number
+# 5. Print Larger Number
 Ques- Take 2 numbers as input and print the largest number.
 
 
@@ -329,7 +329,7 @@ The larger number is: 25
 [Back to the top](#index)
 ---
 
-### 6. Currency Converter (Rupees to USD)
+# 6. Currency Converter (Rupees to USD)
 Ques- Input currency in rupees and output in USD.
 
 ```java
@@ -368,7 +368,7 @@ Your amount in dollars: 100.00
 [Back to the top](#index)
 ---
 
-### 7. Fibonacci Series
+# 7. Fibonacci Series
 Ques- To calculate Fibonacci Series up to n numbers.
 
 ```java
@@ -426,7 +426,7 @@ Fibonacci Series up to 10 terms:
 [Back to the top](#index)
 ---
 
-### 8. Palindrome Checker
+# 8. Palindrome Checker
 Ques- To find out whether the given string is a palindrome or not.
 
 ```java
@@ -500,7 +500,7 @@ The string is not a palindrome.
 ---
 
 
-### 9. Armstrong Numbers in a Range
+# 9. Armstrong Numbers in a Range
 Ques- Find Armstrong Numbers between two given numbers.
 
 An Armstrong number (also known as a narcissistic number or pluperfect number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).

@@ -264,7 +264,7 @@ The result is: 15.0
 
 ---
 
-- 5. Take 2 numbers as input and print the largest number.
+# 5. Take 2 numbers as input and print the largest number.
 
 ```java
 package assignments;
@@ -311,7 +311,7 @@ The larger number is: 25
 ---
 
 
-- 6. Input currency in rupees and output in USD.
+# 6. Input currency in rupees and output in USD.
 
 ```java
 package assignments;
@@ -349,7 +349,7 @@ Your amount in dollars: 100.00
 ```
 
 
-- 7. To calculate Fibonacci Series up to n numbers.
+# 7. To calculate Fibonacci Series up to n numbers.
 
 ```java
 package assignments;
@@ -407,7 +407,7 @@ Fibonacci Series up to 10 terms:
 ```
 
 
-- 8. To find out whether the given String is Palindrome or not.
+# 8. To find out whether the given String is Palindrome or not.
 
 ```java
 package assignments;
@@ -480,7 +480,7 @@ The string is not a palindrome.
 ```
 
 
-- 9. To find Armstrong Number between two given number.
+# 9. To find Armstrong Number between two given number.
 
 An Armstrong number (also known as a narcissistic number or pluperfect number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).
 

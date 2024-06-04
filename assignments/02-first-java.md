@@ -1,9 +1,26 @@
 
-## Write Java programs for the following:
+# Write Java programs for the following:
 
----
+Certainly! Here's the updated index page for your README file, with two separate paths for the if-else and switch statements in question 4:
 
-### 1. Write a program to print whether a number is even or odd, also take input from the user.
+# Index
+
+1. [Check Even or Odd](#1-check-even-or-odd)
+2. [Greeting Message](#2-greeting-message)
+3. [Calculate Simple Interest](#3-calculate-simple-interest)
+4. [Calculator](#4-calculator)
+   - [Using If-Else](#41-using-if-else)
+   - [Using Switch](#42-using-switch)
+5. [Print Larger Number](#5-print-larger-number)
+6. [Currency Converter (Rupees to USD)](#6-currency-converter-rupees-to-usd)
+7. [Fibonacci Series](#7-fibonacci-series)
+8. [Palindrome Checker](#8-palindrome-checker)
+9. [Armstrong Numbers in a Range](#9-armstrong-numbers-in-a-range)
+
+## Questions
+
+### 1. Check Even or Odd
+Quest- Write a program to print whether a number is even or odd, also take input from the user.
 
 ```Java
 package com.prateek;
@@ -41,7 +58,8 @@ Odd
 
 ---
 
-### 2. Take name as input and print a greeting message for that particular name.
+### 2. Greeting Message
+Ques- Take name as input and print a greeting message for that particular name.
 
 ```Java
 package assignments;
@@ -70,9 +88,8 @@ Hello Prateek
 ```
 ---
 
-
-### 3. Write a program to input principal, time, and rate (P, T, R) from the user and
-find Simple Interest.
+### 3. Calculate Simple Interest
+Ques- Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
 
 ```java
 package assignments;
@@ -116,8 +133,9 @@ The Simple Interest is: 100
 ```
 ---
 
-### 4. Take in two numbers and an operator (+, -, *, /) and calculate the value.
-- (Using if conditions)
+### 4. Calculator
+Ques- Take in two numbers and an operator (+, -, *, /) and calculate the value.
+   - [4.1 Using If-Else](#41-using-if-else)
 
 ```java
 package assignments;
@@ -183,7 +201,8 @@ Enter the second number:
 The result is: 15.0
 ```
 
-- (Using switch operator)
+
+   - [4.2 Using Switch](#42-using-switch)
 
 ```java
 package assignments;
@@ -256,9 +275,11 @@ Enter the second number:
 The result is: 15.0
 ```
 
----
+---   
 
-# 5. Take 2 numbers as input and print the largest number.
+### 5. Print Larger Number
+Ques- Take 2 numbers as input and print the largest number.
+
 
 ```java
 package assignments;
@@ -302,8 +323,8 @@ The larger number is: 25
 ```
 ---
 
-
-# 6. Input currency in rupees and output in USD.
+### 6. Currency Converter (Rupees to USD)
+Ques- Input currency in rupees and output in USD.
 
 ```java
 package assignments;
@@ -337,9 +358,10 @@ Enter the amount in rupees:
 ```
 Your amount in dollars: 100.00
 ```
+---
 
-
-# 7. To calculate Fibonacci Series up to n numbers.
+### 7. Fibonacci Series
+Ques- To calculate Fibonacci Series up to n numbers.
 
 ```java
 package assignments;
@@ -393,9 +415,10 @@ Enter the number of terms in the Fibonacci series:
 Fibonacci Series up to 10 terms:
 0 1 1 2 3 5 8 13 21 34
 ```
+---
 
-
-# 8. To find out whether the given String is Palindrome or not.
+### 8. Palindrome Checker
+Ques- To find out whether the given string is a palindrome or not.
 
 ```java
 package assignments;
@@ -464,9 +487,11 @@ Hello
 ```
 The string is not a palindrome.
 ```
+---
 
 
-# 9. To find Armstrong Number between two given number.
+### 9. Armstrong Numbers in a Range
+Ques- Find Armstrong Numbers between two given numbers.
 
 An Armstrong number (also known as a narcissistic number or pluperfect number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).
 
@@ -530,5 +555,13 @@ Enter the upper bound of the range:
 Armstrong numbers between 100 and 500 are:
 153 370 371 407 
 ```
+
+
+---
+
+
+
+
+
 
 

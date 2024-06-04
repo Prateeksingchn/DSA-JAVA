@@ -55,7 +55,7 @@ public class EvenOdd {
 ```
 Odd
 ```
-
+[Back to the top](#index)
 ---
 
 ### 2. Greeting Message
@@ -86,6 +86,8 @@ Prateek
 ```
 Hello Prateek
 ```
+
+[Back to the top](#index)
 ---
 
 ### 3. Calculate Simple Interest
@@ -131,6 +133,8 @@ Enter Time Period in Years (T):
 ```
 The Simple Interest is: 100
 ```
+
+[Back to the top](#index)
 ---
 
 ### 4. Calculator
@@ -200,7 +204,7 @@ Enter the second number:
 ```
 The result is: 15.0
 ```
-
+[Back to the top](#index)
 
    - [4.2 Using Switch](#42-using-switch)
 
@@ -274,7 +278,7 @@ Enter the second number:
 ```
 The result is: 15.0
 ```
-
+[Back to the top](#index)
 ---   
 
 ### 5. Print Larger Number
@@ -321,6 +325,8 @@ Enter num2:
 ```
 The larger number is: 25
 ```
+
+[Back to the top](#index)
 ---
 
 ### 6. Currency Converter (Rupees to USD)
@@ -358,6 +364,8 @@ Enter the amount in rupees:
 ```
 Your amount in dollars: 100.00
 ```
+
+[Back to the top](#index)
 ---
 
 ### 7. Fibonacci Series
@@ -415,6 +423,7 @@ Enter the number of terms in the Fibonacci series:
 Fibonacci Series up to 10 terms:
 0 1 1 2 3 5 8 13 21 34
 ```
+[Back to the top](#index)
 ---
 
 ### 8. Palindrome Checker
@@ -487,6 +496,7 @@ Hello
 ```
 The string is not a palindrome.
 ```
+[Back to the top](#index)
 ---
 
 
@@ -556,12 +566,7 @@ Armstrong numbers between 100 and 500 are:
 153 370 371 407 
 ```
 
-
+[Back to the top](#index)
 ---
-
-
-
-
-
 
 

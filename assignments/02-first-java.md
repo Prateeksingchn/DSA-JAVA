@@ -1,8 +1,6 @@
 
 # Write Java programs for the following:
 
-Certainly! Here's the updated index page for your README file, with two separate paths for the if-else and switch statements in question 4:
-
 # Index
 
 1. [Check Even or Odd](#1-check-even-or-odd)
@@ -20,7 +18,7 @@ Certainly! Here's the updated index page for your README file, with two separate
 ## Questions
 
 # 1. Check Even or Odd
-Quest- Write a program to print whether a number is even or odd, also take input from the user.
+Ques- Write a program to print whether a number is even or odd, also take input from the user.
 
 ```Java
 package com.prateek;

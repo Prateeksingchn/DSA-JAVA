@@ -350,6 +350,202 @@ Your amount in dollars: 100.00
 
 
 - 7. To calculate Fibonacci Series up to n numbers.
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class FibonacciSeries {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Prompt the user to enter the number of terms in the Fibonacci series
+        System.out.println("Enter the number of terms in the Fibonacci series:");
+        int n = input.nextInt();
+
+        // Handle the special case where n is 0 or negative
+        if (n <= 0) {
+            System.out.println("Please enter a positive integer.");
+        } else {
+            System.out.println("Fibonacci Series up to " + n + " terms:");
+
+            // Initialize the first two terms of the Fibonacci series
+            int num1 = 0, num2 = 1;
+
+            for (int i = 1; i <= n; i++) {
+                System.out.print(num1 + " ");
+
+                // Calculate the next term
+                int nextTerm = num1 + num2;
+                // Update the previous two terms
+                num1 = num2;
+                num2 = nextTerm;
+            }
+
+            System.out.println(); // Move to the next line after printing the series
+        }
+
+        // Close the scanner (optional but recommended)
+        input.close();
+    }
+}
+```
+
+### Example Input and Output:
+
+**Input:**
+```
+Enter the number of terms in the Fibonacci series:
+10
+```
+
+**Output:**
+```
+Fibonacci Series up to 10 terms:
+0 1 1 2 3 5 8 13 21 34
+```
+
+
 - 8. To find out whether the given String is Palindrome or not.
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class PalindromeChecker {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter a string:");
+        String str = input.nextLine();
+
+        if (isPalindrome(str)) {
+            System.out.println("The string is a palindrome.");
+        } else {
+            System.out.println("The string is not a palindrome.");
+        }
+    }
+
+    public static boolean isPalindrome(String str) {
+        int left = 0;
+        int right = str.length() - 1;
+
+        while (left < right) {
+            // Ignore non-alphanumeric characters
+            while (left < right && !Character.isLetterOrDigit(str.charAt(left))) {
+                left++;
+            }
+            while (left < right && !Character.isLetterOrDigit(str.charAt(right))) {
+                right--;
+            }
+
+            // Compare characters
+            if (Character.toLowerCase(str.charAt(left)) != Character.toLowerCase(str.charAt(right))) {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+}
+```
+
+### Example Input and Output:
+
+**Input:**
+```
+Enter a string:
+Madam
+```
+
+**Output:**
+```
+The string is a palindrome.
+```
+
+**Input:**
+```
+Enter a string:
+Hello
+```
+
+**Output:**
+```
+The string is not a palindrome.
+```
+
+
 - 9. To find Armstrong Number between two given number.
+
+An Armstrong number (also known as a narcissistic number or pluperfect number) is a number that is equal to the sum of its own digits each raised to the power of the number of digits. For example, 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).
+
+
+```java
+package assignments;
+
+import java.util.Scanner;
+
+public class ArmstrongNumbersInRange {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Prompt the user to enter the range
+        System.out.println("Enter the lower bound of the range:");
+        int lowerBound = input.nextInt();
+
+        System.out.println("Enter the upper bound of the range:");
+        int upperBound = input.nextInt();
+
+        System.out.println("Armstrong numbers between " + lowerBound + " and " + upperBound + " are:");
+
+        // Find and print all Armstrong numbers in the given range
+        for (int i = lowerBound; i <= upperBound; i++) {
+            if (isArmstrong(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+
+        // Close the scanner (optional but recommended)
+        input.close();
+    }
+
+    // Method to check if a number is an Armstrong number
+    public static boolean isArmstrong(int num) {
+        int originalNum = num;
+        int sum = 0;
+        int numberOfDigits = String.valueOf(num).length();
+
+        while (num != 0) {
+            int digit = num % 10;
+            sum += Math.pow(digit, numberOfDigits);
+            num /= 10;
+        }
+
+        return sum == originalNum;
+    }
+}
+```
+
+### Example Input and Output:
+
+**Input:**
+```
+Enter the lower bound of the range:
+100
+Enter the upper bound of the range:
+500
+```
+
+**Output:**
+```
+Armstrong numbers between 100 and 500 are:
+153 370 371 407 
+```
+
 

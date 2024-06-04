@@ -100,9 +100,6 @@ public class SimpleInterest {
     }
 }
 ```
-
-### Example Input and Output:
-
 **Input:**
 ```
 Enter Principal (P):
@@ -170,7 +167,6 @@ public class Calculator {
     }
 }
 ```
-### Example Input and Output:
 
 **Input:**
 ```
@@ -245,8 +241,6 @@ public class CalculatorWithSwitch {
 }
 
 ```
-### Example Input and Output:
-
 **Input:**
 ```
 Enter the first number:
@@ -294,8 +288,6 @@ public class PrintLargerNum {
 
 ```
 
-### Example Input and Output:
-
 **Input:**
 ```
 Enter num1:
@@ -335,8 +327,6 @@ public class CurrencyConverter {
 }
 
 ```
-### Example Input and Output:
-
 **Input:**
 ```
 Enter the amount in rupees:
@@ -391,8 +381,6 @@ public class FibonacciSeries {
     }
 }
 ```
-
-### Example Input and Output:
 
 **Input:**
 ```
@@ -454,8 +442,6 @@ public class PalindromeChecker {
     }
 }
 ```
-
-### Example Input and Output:
 
 **Input:**
 ```
@@ -531,9 +517,6 @@ public class ArmstrongNumbersInRange {
     }
 }
 ```
-
-### Example Input and Output:
-
 **Input:**
 ```
 Enter the lower bound of the range:

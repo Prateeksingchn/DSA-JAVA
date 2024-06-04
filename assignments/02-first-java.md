@@ -9,8 +9,8 @@ Certainly! Here's the updated index page for your README file, with two separate
 2. [Greeting Message](#2-greeting-message)
 3. [Calculate Simple Interest](#3-calculate-simple-interest)
 4. [Calculator](#4-calculator)
-   - [Using If-Else](#a-using-if-else)
-   - [Using Switch](#b-using-switch)
+   - [Using If-Else](#41-using-if-else)
+   - [Using Switch](#42-using-switch)
 5. [Print Larger Number](#5-print-larger-number)
 6. [Currency Converter (Rupees to USD)](#6-currency-converter-rupees-to-usd)
 7. [Fibonacci Series](#7-fibonacci-series)
@@ -139,7 +139,7 @@ The Simple Interest is: 100
 
 ### 4. Calculator
 Ques- Take in two numbers and an operator (+, -, *, /) and calculate the value.
-   - [a Using If-Else](#a-using-if-else)
+   ## [4.1 Using If-Else](#41-using-if-else)
 
 ```java
 package assignments;
@@ -206,7 +206,7 @@ The result is: 15.0
 ```
 [Back to the top](#index)
 
-   - [b Using Switch](#b-using-switch)
+   ## [4.2 Using Switch](#42-using-switch)
 
 ```java
 package assignments;

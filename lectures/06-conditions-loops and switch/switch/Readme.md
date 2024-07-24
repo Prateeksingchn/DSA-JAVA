@@ -1,6 +1,3 @@
-Here is the updated `README.md` file with the requested structure:
-
-```markdown
 # Switch Statements in Java
 
 ## Index

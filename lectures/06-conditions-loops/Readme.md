@@ -1,5 +1,4 @@
 
-```markdown
 # Conditionals and Loops
 
 ## Index
@@ -17,6 +16,8 @@
    - [Counting Occurrence](#counting-occurrence)
    - [Reverse a Number](#reverse-a-number)
    - [Calculator Program](#calculator-program)
+
+---
 
 ## Conditional Statements
 

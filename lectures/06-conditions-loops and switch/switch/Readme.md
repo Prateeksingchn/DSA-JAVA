@@ -205,5 +205,3 @@ public class NestedSwitch {
 - **Break Statement:** In the enhanced switch, there is no need for explicit break statements to terminate case blocks.
 - **Multiple Cases:** The enhanced switch allows multiple cases to share the same statement more cleanly.
 
-```
-

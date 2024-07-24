@@ -35,8 +35,8 @@ public class Largest {
 //
 //        System.out.println(max + " is the largest number");
 
-        //Third method
-/*  int max = Math.max(a, b); this will give the max value out of these two */
+        //Third method (most optimized way)
+        /* int max = Math.max(a, b); this will give the max value out of these two */
 
         int max = Math.max(c, Math.max(a, b)); //isme 3 ko compare karke max value dega
         System.out.println(max + " is the largest number");

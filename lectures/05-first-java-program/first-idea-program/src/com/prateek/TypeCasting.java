@@ -32,17 +32,17 @@ public class TypeCasting {
 //        int number = 'A';
 //        System.out.println(number); //output- 65 (Here java is converting char to int)
 
-        //Rules for type conversion
-         byte b = 42;
-         char c = 'a';
-         short s = 1024;
-         int i = 50000;
-         float f = 5.67f;
-         double d = 0.1234;
-         double result = (f * b) + (i / c) - (d * s);
-         //float + int + double = double
-        System.out.println((f * b) + " " + (i / c) + " " + (d * s));  //output- 238.14 515 126.3616
-        System.out.println(result);  //output- 626.7784146484375
+        /* Rules for type conversion */
+//         byte b = 42;
+//         char c = 'a';
+//         short s = 1024;
+//         int i = 50000;
+//         float f = 5.67f;
+//         double d = 0.1234;
+//         double result = (f * b) + (i / c) - (d * s);
+//         //float + int + double = double
+//        System.out.println((f * b) + " " + (i / c) + " " + (d * s));  //output- 238.14 515 126.3616
+//        System.out.println(result);  //output- 626.7784146484375
 
     }
 }

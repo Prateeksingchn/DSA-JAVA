@@ -17,8 +17,9 @@ public class Main {
 //        } else {
 //            salary = salary + 1000;
 //        }
+//        System.out.println(salary);
 
-        //multiple of-else
+        //multiple if-else
          if (salary > 10000) {
              salary += 2000; //salary = salary + 2000
          } else if (salary > 20000) {

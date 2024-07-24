@@ -202,12 +202,6 @@ public class NestedSwitch {
 - **Default** will execute when none of the above cases match.
 - If **default** is not at the end, put a break after it.
 
-## Differences between Normal and Enhanced Switch
-
-- **Syntax:** The enhanced switch uses the `->` syntax which is more concise and readable.
-- **Break Statement:** In the enhanced switch, there is no need for explicit break statements to terminate case blocks.
-- **Multiple Cases:** The enhanced switch allows multiple cases to share the same statement more cleanly.
-
 - **Cases** must be the same type as expressions, must be a constant or literal.
     - **Example:**
         ```java
@@ -283,4 +277,12 @@ public class NestedSwitch {
         ```
 
 [Back to Index](#index)
-```
+
+---
+## Differences between Normal and Enhanced Switch
+
+- **Syntax:** The enhanced switch uses the `->` syntax which is more concise and readable.
+- **Break Statement:** In the enhanced switch, there is no need for explicit break statements to terminate case blocks.
+- **Multiple Cases:** The enhanced switch allows multiple cases to share the same statement more cleanly.
+
+---

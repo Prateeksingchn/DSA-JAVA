@@ -12,7 +12,7 @@
 ## Switch Syntax
 In switch statements, you can jump to various cases based on your expression.
 
-![Switch Syntax](image.png)
+![Switch Syntax](switch.png)
 
 ## Basic Switch Example
 

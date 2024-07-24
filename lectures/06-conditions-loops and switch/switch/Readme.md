@@ -1,15 +1,21 @@
+Here is the updated `README.md` file with the requested structure:
+
+```markdown
 # Switch Statements in Java
 
-In switch statements, you can jump to various cases based on your expression.
-
-![Switch Syntax](switch.png)
-
 ## Index
+- [Switch Syntax](#switch-syntax)
 - [Basic Switch Example](#basic-switch-example)
 - [Enhanced Switch Example](#enhanced-switch-example)
 - [Day of the Week Example](#day-of-the-week-example)
 - [Day Type Example (Weekday/Weekend)](#day-type-example-weekdayweekend)
 - [Nested Switch Example](#nested-switch-example)
+- [Notes on Switch Statements](#notes-on-switch-statements)
+
+## Switch Syntax
+In switch statements, you can jump to various cases based on your expression.
+
+![Switch Syntax](image.png)
 
 ## Basic Switch Example
 
@@ -205,3 +211,79 @@ public class NestedSwitch {
 - **Break Statement:** In the enhanced switch, there is no need for explicit break statements to terminate case blocks.
 - **Multiple Cases:** The enhanced switch allows multiple cases to share the same statement more cleanly.
 
+- **Cases** must be the same type as expressions, must be a constant or literal.
+    - **Example:**
+        ```java
+        switch (fruit) {
+            case "Mango":
+                System.out.println("King of fruits");
+                break;
+            // other cases
+        }
+        ```
+
+- **Duplicate case values** are not allowed.
+    - **Example:**
+        ```java
+        switch (number) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 1: // This will cause an error
+                System.out.println("Duplicate case");
+                break;
+        }
+        ```
+
+- **Break** is used to terminate a sequence of statements.
+    - **Example:**
+        ```java
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break; // without this break, the next case will also execute
+            case 2:
+                System.out.println("Tuesday");
+                break;
+        }
+        ```
+
+- If **break** is not used, it will continue to execute the next case.
+    - **Example:**
+        ```java
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+            case 2:
+                System.out.println("Tuesday"); // This will also execute if day is 1
+                break;
+        }
+        ```
+
+- **Default** will execute when none of the above cases match.
+    - **Example:**
+        ```java
+        switch (fruit) {
+            case "Mango":
+                System.out.println("King of fruits");
+                break;
+            default:
+                System.out.println("Please enter a valid fruit");
+        }
+        ```
+
+- If **default** is not at the end, put a break after it.
+    - **Example:**
+        ```java
+        switch (fruit) {
+            default:
+                System.out.println("Please enter a valid fruit");
+                break;
+            case "Mango":
+                System.out.println("King of fruits");
+                break;
+        }
+        ```
+
+[Back to Index](#index)
+```

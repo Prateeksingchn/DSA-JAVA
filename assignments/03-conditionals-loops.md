@@ -1,4 +1,3 @@
-Certainly! Below is the index followed by the solutions with example inputs and outputs.
 
 # Java Programs
 

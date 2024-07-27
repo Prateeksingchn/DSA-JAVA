@@ -65,7 +65,7 @@
 
 ### Basic Java Programs
 
-1. **Area Of Circle Java Program**
+# 1. Area Of Circle Java Program
     - Formula: Area = π * radius^2
     ```java
     package com.prateek;
@@ -96,7 +96,7 @@
         Area of circle 78.5
         ```
 
-2. **Area Of Triangle**
+# 2. Area Of Triangle
     - Formula: Area = 0.5 * base * height
     ```java
     // Your code here
@@ -111,7 +111,7 @@
         Area of triangle 25.0
         ```
 
-3. **Area Of Rectangle Program**
+# 3. Area Of Rectangle Program
     - Formula: Area = length * width
     ```java
     // Your code here

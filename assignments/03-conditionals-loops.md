@@ -4,9 +4,9 @@
 ## Index of Java Programs
 
 ### Basic Java Programs
-1. [Area Of Circle Java Program](#area-of-circle-java-program)
-2. [Area Of Triangle](#area-of-triangle)
-3. [Area Of Rectangle Program](#area-of-rectangle-program)
+1. [Area Of Circle Java Program](#1-area-of-circle-java-program)
+2. [Area Of Triangle](#2-area-of-triangle)
+3. [Area Of Rectangle Program](#3-area-of-rectangle-program)
 4. [Area Of Isosceles Triangle](#area-of-isosceles-triangle)
 5. [Area Of Parallelogram](#area-of-parallelogram)
 6. [Area Of Rhombus](#area-of-rhombus)

@@ -30,7 +30,7 @@
 
 ---
 
-### 1. Factorial Program In Java 🟩
+### 1. Factorial Program In Java
 
 **Formula:**
 \[ \text{Factorial}(n) = n \times (n-1) \times (n-2) \times ... \times 1 \]
@@ -49,7 +49,7 @@
 
 ---
 
-### 2. Calculate Electricity Bill ✅
+### 2. Calculate Electricity Bill
 
 #### Example Code 1: Simple Electricity Bill
 
@@ -189,7 +189,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 3. Calculate Average Of N Numbers 🟩
+### 3. Calculate Average Of N Numbers
 
 **Formula:**
 \[ \text{Average} = \frac{\text{Sum of numbers}}{\text{Count of numbers}} \]
@@ -211,7 +211,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 4. Calculate Discount Of Product 🟩
+### 4. Calculate Discount Of Product
 
 **Formula:**
 \[ \text{Discounted Price} = \text{Original Price} - (\text{Original Price} \times \frac{\text{Discount Percentage}}{100}) \]
@@ -232,7 +232,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 5. Calculate Distance Between Two Points 🟩
+### 5. Calculate Distance Between Two Points
 
 **Formula:**
 \[ \text{Distance} = \sqrt{(\text{x2} - \text{x1})^2 + (\text{y2} - \text{y1})^2} \]
@@ -251,7 +251,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 6. Calculate Commission Percentage 🟩
+### 6. Calculate Commission Percentage
 
 **Formula:**
 \[ \text{Commission} = \text{Sales Amount} \times \frac{\text{Commission Rate}}{100} \]
@@ -272,7 +272,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 7. Power In Java 🟩
+### 7. Power In Java
 
 **Formula:**
 \[ \text{Power} = \text{base}^\text{exponent} \]
@@ -293,7 +293,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 8. Calculate Depreciation of Value 🟩
+### 8. Calculate Depreciation of Value
 
 **Formula:**
 \[ \text{Depreciation} = \text{Original Value} \times (1 - \frac{\text{Rate of Depreciation}}{100})^\text{Number of Years} \]
@@ -316,7 +316,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 9. Calculate Batting Average 🟩
+### 9. Calculate Batting Average
 
 **Formula:**
 \[ \text{Batting Average} = \frac{\text{Total Runs}}{\text{Number of Outs}} \]
@@ -337,7 +337,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 10. Calculate CGPA Java Program 🟩
+### 10. Calculate CGPA Java Program
 
 **Formula:**
 \[ \text{CGPA} = \frac{\text{Sum of all Grade Points}}{\text{Number of Subjects}} \]
@@ -361,7 +361,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 11. Compound Interest Java Program 🟩
+### 11. Compound Interest Java Program
 
 **Formula:**
 \[ \text{A} = \text{P} \left(1 + \frac{\text{r}}{\text{n}}\right)^{\text{n} \times \text{t}} \]
@@ -386,7 +386,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 12. Calculate Average Marks 🟩
+### 12. Calculate Average Marks
 
 **Formula:**
 \[ \text{Average Marks} = \frac{\text{Sum of Marks}}{\text{Number of Subjects}} \]
@@ -408,7 +408,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 13. Sum Of N Numbers 🟩
+### 13. Sum Of N Numbers
 
 **Formula:**
 \[ \text{Sum} = \frac{n(n + 1)}{2} \]
@@ -427,7 +427,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 14. Armstrong Number In Java 🟩
+### 14. Armstrong Number In Java
 
 **Hint:**
 - An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 153 is an Armstrong number because \(1^3 + 5^3 + 3^3 = 153\).
@@ -446,7 +446,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 15. Find Ncr & Npr 🟩
+### 15. Find Ncr & Npr
 
 **Formula:**
 \[ \text{Ncr} = \frac{n!}{r!(n-r)!} \]
@@ -469,7 +469,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 16. Reverse A String In Java 🟩
+### 16. Reverse A String In Java
 
 **Hint:**
 - Use a loop to iterate through the string backwards and append each character to a new string.
@@ -488,7 +488,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 17. Find if a number is palindrome or not 🟩
+### 17. Find if a number is palindrome or not
 
 **Hint:**
 - A palindrome number is a number that remains the same when its digits are reversed.
@@ -507,7 +507,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 18. Future Investment Value 🟩
+### 18. Future Investment Value
 
 **Formula:**
 \[ \text{FV} = \text{PV} \times (1 + \frac{\text{rate}}{100})^\text{n} \]
@@ -530,7 +530,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 19. HCF Of Two Numbers Program 🟩
+### 19. HCF Of Two Numbers Program
 
 **Hint:**
 - The highest common factor (HCF) or greatest common divisor (GCD) of two integers is the largest positive integer that divides both of the integers.
@@ -549,7 +549,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 20. LCM Of Two Numbers 🟩
+### 20. LCM Of Two Numbers
 
 **Hint:**
 - The least common multiple (LCM) of two integers is the smallest positive integer that is divisible by both integers.
@@ -568,7 +568,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 21. Java Program Vowel Or Consonant 🟩
+### 21. Java Program Vowel Or Consonant
 
 **Hint:**
 - Check if a given character is a vowel (a, e, i, o, u) or a consonant.
@@ -587,7 +587,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 22. Perfect Number In Java 🟩
+### 22. Perfect Number In Java
 
 **Hint:**
 - A perfect number is a positive integer that is equal to the sum of its proper divisors, excluding itself.
@@ -606,7 +606,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 23. Check Leap Year Or Not 🟩
+### 23. Check Leap Year Or Not
 
 **Hint:**
 - A leap year is exactly divisible by 4 except for century years (years ending with 00). The century year is a leap year only if it is perfectly divisible by 400.
@@ -625,7 +625,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 24. Sum Of A Digits Of Number 🟩
+### 24. Sum Of A Digits Of Number
 
 **Hint:**
 - Use a loop to extract each digit of the number and sum them up.
@@ -644,7 +644,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 25. Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August. 🟩
+### 25. Kunal is allowed to go out with his friends only on the even days of a given month. Write a program to count the number of days he can go out in the month of August.
 
 **Hint:**
 - Count the even days in the month (e.g., for August, the days are 2, 4, 6, ..., 30).
@@ -658,7 +658,7 @@ So, `$%.2f%n` means:
 
 ---
 
-### 26. Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero. 🟩
+### 26. Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.
 
 **Hint:**
 - Use a loop to keep track of the sums based on the type of number (negative, positive even, positive odd).

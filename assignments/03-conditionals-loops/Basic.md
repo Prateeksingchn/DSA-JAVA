@@ -70,7 +70,7 @@ public class AreaOfCircle {
 
 ---
 
-### 3. Area Of Rectangle Program 🟩
+### 3. Area Of Rectangle Program
 
 **Formula:**
 \[ \text{Area} = \text{length} \times \text{width} \]
@@ -79,7 +79,7 @@ public class AreaOfCircle {
 
 ---
 
-### 4. Area Of Isosceles Triangle 🟩
+### 4. Area Of Isosceles Triangle
 
 **Formula:**
 \[ \text{Area} = \frac{1}{2} \times \text{base} \times \text{height} \]
@@ -88,7 +88,7 @@ public class AreaOfCircle {
 
 ---
 
-### 5. Area Of Parallelogram ✅
+### 5. Area Of Parallelogram
 
 ```java
 package com.prateek;
@@ -122,7 +122,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 6. Area Of Rhombus 🟩
+### 6. Area Of Rhombus
 
 **Formula:**
 \[ \text{Area} = \frac{1}{2} \times \text{diagonal1} \times \text{diagonal2} \]
@@ -131,7 +131,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 7. Area Of Equilateral Triangle 🟩
+### 7. Area Of Equilateral Triangle
 
 **Formula:**
 \[ \text{Area} = \frac{\sqrt{3}}{4} \times \text{side}^2 \]
@@ -140,7 +140,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 8. Perimeter Of Circle 🟩
+### 8. Perimeter Of Circle
 
 **Formula:**
 \[ \text{Perimeter} = 2 \times \pi \times \text{radius} \]
@@ -149,7 +149,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 9. Perimeter Of Equilateral Triangle 🟩
+### 9. Perimeter Of Equilateral Triangle
 
 **Formula:**
 \[ \text{Perimeter} = 3 \times \text{side} \]
@@ -158,7 +158,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 10. Perimeter Of Parallelogram 🟩
+### 10. Perimeter Of Parallelogram
 
 **Formula:**
 \[ \text{Perimeter} = 2 \times (\text{base} + \text{side}) \]
@@ -167,7 +167,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 11. Perimeter Of Rectangle 🟩
+### 11. Perimeter Of Rectangle
 
 **Formula:**
 \[ \text{Perimeter} = 2 \times (\text{length} + \text{width}) \]
@@ -176,7 +176,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 12. Perimeter Of Square 🟩
+### 12. Perimeter Of Square
 
 **Formula:**
 \[ \text{Perimeter} = 4 \times \text{side} \]
@@ -185,7 +185,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 13. Perimeter Of Rhombus 🟩
+### 13. Perimeter Of Rhombus
 
 **Formula:**
 \[ \text{Perimeter} = 4 \times \text{side} \]
@@ -194,7 +194,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 14. Volume Of Cone Java Program 🟩
+### 14. Volume Of Cone Java Program
 
 **Formula:**
 
@@ -204,7 +204,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 15. Volume Of Prism 🟩
+### 15. Volume Of Prism
 
 **Formula:**
 \[ \text{Volume} = \text{base area} \times \text{height} \]
@@ -213,7 +213,7 @@ public class AreaOfParallelogram {
 
 ---
 
-### 16. Volume Of Cylinder ✅
+### 16. Volume Of Cylinder
 
 ```java
 package com.prateek;
@@ -248,7 +248,7 @@ public class VolumeOfCylinder {
 
 ---
 
-### 17. Volume Of Sphere 🟩
+### 17. Volume Of Sphere
 
 **Formula:**
 \[ \text{Volume} = \frac{4}{3} \times \pi \times \text{radius}^3 \]
@@ -257,7 +257,7 @@ public class VolumeOfCylinder {
 
 ---
 
-### 18. Volume Of Pyramid 🟩
+### 18. Volume Of Pyramid
 
 **Formula:**
 \[ \text{Volume} = \frac{1}{3} \times \text{base area} \times \text{height} \]
@@ -266,7 +266,7 @@ public class VolumeOfCylinder {
 
 ---
 
-### 19. Curved Surface Area Of Cylinder 🟩
+### 19. Curved Surface Area Of Cylinder
 
 **Formula:**
 \[ \text{Curved Surface Area} = 2 \times \pi \times \text{radius} \times \text{height} \]
@@ -275,7 +275,7 @@ public class VolumeOfCylinder {
 
 ---
 
-### 20. Total Surface Area Of Cube ✅
+### 20. Total Surface Area Of Cube
 
 ```java
 package com.prateek;
@@ -305,7 +305,7 @@ public class TotalSurfaceAreaOfCube {
 
 ---
 
-### 21. Fibonacci Series In Java Programs ✅
+### 21. Fibonacci Series In Java Programs
 
 ```java
 package com.prateek;
@@ -343,7 +343,7 @@ public class Fibo {
 
 ---
 
-### 22. Subtract the Product and Sum of Digits of an Integer ✅
+### 22. Subtract the Product and Sum of Digits of an Integer
 
 ```java
 package com.prateek;
@@ -384,7 +384,7 @@ public class Leetcode {
 
 ---
 
-### 23. Input a number and print all the factors of that number 🟩
+### 23. Input a number and print all the factors of that number
 
 **Hint:**
 - Use a loop to iterate through numbers from 1 to the input number and check if each number is a factor.
@@ -393,7 +393,7 @@ public class Leetcode {
 
 ---
 
-### 24. Take integer inputs till the user enters 0 and print the sum of all numbers 🟩
+### 24. Take integer inputs till the user enters 0 and print the sum of all numbers
 
 **Hint:**
 - Use a while loop to take inputs and keep a running total of the sum.
@@ -402,7 +402,7 @@ public class Leetcode {
 
 ---
 
-### 25. Take integer inputs till the user enters 0 and print the largest number from all 🟩
+### 25. Take integer inputs till the user enters 0 and print the largest number from all
 
 **Hint:**
 - Use a while loop to take inputs and keep track of the largest number encountered.
@@ -411,7 +411,7 @@ public class Leetcode {
 
 ---
 
-### 26. Addition Of Two Numbers 🟩
+### 26. Addition Of Two Numbers
 
 **Hint:**
 - Take two integer inputs and print their sum.

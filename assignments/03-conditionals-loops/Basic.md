@@ -30,7 +30,7 @@
 
 ---
 
-### 1. Area Of Circle Java Program ✅
+### 1. Area Of Circle Java Program
 
 ```java
 package com.prateek;
@@ -61,7 +61,7 @@ public class AreaOfCircle {
 
 ---
 
-### 2. Area Of Triangle 🟩
+### 2. Area Of Triangle
 
 **Formula:**
 \[ \text{Area} = \frac{1}{2} \times \text{base} \times \text{height} \]

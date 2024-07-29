@@ -8,7 +8,8 @@ public class Scope {
         /* Note 2: Anything that is initialise outside block, cannot again be initialise inside the block,
          *        but anything which is initialise inside the block, can definetly be initialise outside the block */
 
-        // initialise means setting (assign) up the value.
+        // declaring = int x;   (declare a variable)
+        // initialise = x = 40; (means setting (assign) up the value.)
         /* NOTE in summary:- Anything that is initialise outside block, can be used inside the block
                              (update and all that) but cannot again be initialise inside the block.
 
@@ -35,12 +36,12 @@ public class Scope {
 //        System.out.println(c); //cannot use outside the block
 
         // scoping in for loops
-        for (int i = 0; i < 4; i++) {
-            System.out.println(i);
-            int num = 90;
-            int a = 10;
-        }
-        System.out.println(i);
+//        for (int i = 0; i < 4; i++) {
+//            System.out.println(i);
+//            int num = 90;
+//            int a = 10;
+//        }
+//        System.out.println(i);
     }
 
     static void random(int marks) {

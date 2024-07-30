@@ -19,9 +19,9 @@ public class Overloading {
 /*--------------------------------------------------------------------------------------------------*/
 //        demo(2, 3, 5); //output:- [2, 3, 5]
 //        demo("Prateek", "Bateman");  //output:- [Prateek, Bateman]
-        demo(); /* if we don't write anything here, it will give error
-                   This is called as Ambiguity,
-                   if we take Function Overloading we cannot be empty */
+//        demo(); /* if we don't write anything here,
+//                   it will give error This is called as Ambiguity,
+//                   if we take Function Overloading we cannot be empty */
     }
 
     static void demo(int ...v){

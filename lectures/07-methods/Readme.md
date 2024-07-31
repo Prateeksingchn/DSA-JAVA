@@ -450,5 +450,3 @@ In this example, the `main` method iterates through all 3-digit numbers and uses
 [Back to Index](#index)
 
 ---
-
-These notes provide an overview of functions and methods in Java, including examples and explanations for better understanding.

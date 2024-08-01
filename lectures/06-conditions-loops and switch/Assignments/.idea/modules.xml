@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/06-conditions-loops.iml" filepath="$PROJECT_DIR$/.idea/06-conditions-loops.iml" />
-      <module fileurl="file://$PROJECT_DIR$/code/code.iml" filepath="$PROJECT_DIR$/code/code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/switch/switch.iml" filepath="$PROJECT_DIR$/switch/switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-first-java-program.iml" filepath="$PROJECT_DIR$/05-first-java-program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fIrst-idea-program/fIrst-idea-program.iml" filepath="$PROJECT_DIR$/fIrst-idea-program/fIrst-idea-program.iml" />
     </modules>
   </component>
 </project>

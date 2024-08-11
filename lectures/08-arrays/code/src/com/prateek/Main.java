@@ -14,7 +14,7 @@ public class Main {
         // Syntax of Array
         // datatype[] variable_name == new datatype[size];
         // store 5 roll number:
-        int[] rn = new int[5];
+//        int[] rn = new int[5];
         // or directly
 //        int[] rn2 = {23, 12, 34, 46, 15};
         /* if in Array you have mention datatype as int,
@@ -28,5 +28,9 @@ public class Main {
 
         String[] arr = new String[4];
         System.out.println(arr[0]);   // output: null
+
+//        String str = null;  //this will take null
+//        int num = null;    //But this will not take null its will give errors,
+        /* Bcz, you cannot assign null to any primitives, can only assign to non-primitives */
     }
 }

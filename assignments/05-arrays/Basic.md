@@ -91,26 +91,92 @@
 ```java
     class Solution {
     public int maximumWealth(int[][] accounts) {
-        int maxWealth = 0;
-        
-        for (int i = 0; i < accounts.length; i++) {
-            int customerWealth = 0;
-            for (int j = 0; j < accounts[i].length; j++) {
-                customerWealth += accounts[i][j];
-            }
-            if (customerWealth > maxWealth) {
-                maxWealth = customerWealth;
-            }
-        }
-        
-        return maxWealth;
+       int maxWealth = 0; 
+       for (int wealth = 0; wealth < accounts.length; wealth++) {
+           int wealthSum = 0;
+           for (int account = 0; account < accounts[wealth].length; account++) {
+               wealthSum += accounts[wealth][account];
+           }
+           if (wealthSum > maxWealth) {
+               maxWealth = wealthSum;
+           }    
+       }
+       return maxWealth;
     }
 }
 ```
 ---
 
-5. 
+5. shuffle
+
+```java
+    class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int[] result = new int[2 * n];
+        for (int i = 0; i < n; i++) {
+            result[2 * i] = nums[i];        // x elements
+            result[2 * i + 1] = nums[n + i]; // y elements
+        }
+        return result;
+    }
+}
+```
+---
+
+
+6. 
 ```java
 
 ```
 ---
+
+
+7. 
+```java
+
+```
+---
+
+
+8. 
+```java
+
+```
+---
+
+
+9. 
+```java
+
+```
+---
+
+
+10. 
+```java
+
+```
+---
+
+
+11. 
+```java
+
+```
+---
+
+
+12. 
+```java
+
+```
+---
+
+
+13. 
+```java
+
+```
+---
+
+

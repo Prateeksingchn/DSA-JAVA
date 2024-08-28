@@ -4,9 +4,9 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int target = 22;  //output: 10
-        int target = 18;  //output: 9
-        int target = -18;  //output: 0
-        int target = 415;  //output: -1
+//        int target = 18;  //output: 9
+//        int target = -18;  //output: 0
+//        int target = 415;  //output: -1
         int ans = binarySearch(arr, target);
         System.out.println(ans);  //outputs are in index value(position in Array)
     }

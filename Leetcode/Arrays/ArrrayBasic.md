@@ -1,4 +1,8 @@
-# This file contains LeetCode solutions for basic math problems.
+# This file contains LeetCode solutions for easy Array problems.
+
+## Table of Contents
+1. [Remove Duplicates from Sorted Array](#problem-1-remove-duplicates-from-sorted-array)
+2. [Check if Array Is Sorted and Rotated](#problem-2-check-if-array-is-sorted-and-rotated)
 
 # Problem 1: Remove Duplicates from Sorted Array
 [8. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -37,4 +41,3 @@ class Solution {
         return count <= 1;
     }
 }
-```

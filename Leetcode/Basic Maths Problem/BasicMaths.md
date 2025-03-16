@@ -1,4 +1,4 @@
-# This file contains LeetCode solutions for basic math problems.
+# This file contains LeetCode solutions for easy math problems.
 
 # Problem 1: Reverse Integer
 [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)

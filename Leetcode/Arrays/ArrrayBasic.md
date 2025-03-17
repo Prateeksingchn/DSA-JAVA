@@ -4,7 +4,7 @@
 1. [Remove Duplicates from Sorted Array](#problem-1-remove-duplicates-from-sorted-array)
 2. [Check if Array Is Sorted and Rotated](#problem-2-check-if-array-is-sorted-and-rotated)
 3. [Move all Zeros to the end of the array](#problem-3-move-all-zeros-to-the-end-of-the-array)
-4. [Single Number (Find the number that appears once, and the other numbers twice)](#problem-4-single-number)
+4. [Single Number (Find the number that appears once, and the other numbers twice)](#problem-4-single-number-find-the-number-that-appears-once-and-the-other-numbers-twice)
 
 # Problem 1: Remove Duplicates from Sorted Array
 [8. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -90,4 +90,3 @@ class Solution {
     }
 }
 ```
-

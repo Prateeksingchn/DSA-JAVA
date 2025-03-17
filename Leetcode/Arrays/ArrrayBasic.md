@@ -42,7 +42,7 @@ class Solution {
         return count <= 1;
     }
 }
-
+```
 
 # Problem 3: Move all Zeros to the end of the array
 [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)

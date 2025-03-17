@@ -3,6 +3,7 @@
 ## Table of Contents
 1. [Remove Duplicates from Sorted Array](#problem-1-remove-duplicates-from-sorted-array)
 2. [Check if Array Is Sorted and Rotated](#problem-2-check-if-array-is-sorted-and-rotated)
+3. [Move all Zeros to the end of the array](#problem-3-move-all-zeros-to-the-end-of-the-array)
 
 # Problem 1: Remove Duplicates from Sorted Array
 [8. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -41,3 +42,32 @@ class Solution {
         return count <= 1;
     }
 }
+
+
+# Problem 3: Move all Zeros to the end of the array
+[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+
+## Solution 3
+```java
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int j = -1;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                j = i;
+                break;
+            }
+        }
+        if (j == -1) return;
+
+        for (int i = j + 1; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                int tmp = nums[i];
+                nums [i] = nums[j];
+                nums[j] = tmp;
+                j++;
+            }
+        }
+    }
+}
+```

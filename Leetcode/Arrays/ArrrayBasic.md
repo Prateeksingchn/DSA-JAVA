@@ -24,6 +24,7 @@ class Solution {
     }
 }
 ```
+[Back to Index](#table-of-contents)
 
 # Problem 2: Check if Array Is Sorted and Rotated
 [1752. Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)
@@ -44,6 +45,7 @@ class Solution {
     }
 }
 ```
+[Back to Index](#table-of-contents)
 
 # Problem 3: Move all Zeros to the end of the array
 [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
@@ -72,6 +74,7 @@ class Solution {
     }
 }
 ```
+[Back to Index](#table-of-contents)
 
 # Problem 4: Single Number (Find the number that appears once, and the other numbers twice)
 [136. Single Number](https://leetcode.com/problems/single-number/)
@@ -90,3 +93,4 @@ class Solution {
     }
 }
 ```
+[Back to Index](#table-of-contents)

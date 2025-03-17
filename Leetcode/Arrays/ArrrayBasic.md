@@ -4,6 +4,7 @@
 1. [Remove Duplicates from Sorted Array](#problem-1-remove-duplicates-from-sorted-array)
 2. [Check if Array Is Sorted and Rotated](#problem-2-check-if-array-is-sorted-and-rotated)
 3. [Move all Zeros to the end of the array](#problem-3-move-all-zeros-to-the-end-of-the-array)
+4. [Single Number (Find the number that appears once, and the other numbers twice)](#problem-4-single-number)
 
 # Problem 1: Remove Duplicates from Sorted Array
 [8. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
@@ -71,3 +72,22 @@ class Solution {
     }
 }
 ```
+
+# Problem 4: Single Number (Find the number that appears once, and the other numbers twice)
+[136. Single Number](https://leetcode.com/problems/single-number/)
+
+## Solution 4
+```java
+class Solution {
+    public int singleNumber(int[] nums) {
+        int n = nums.length;
+
+        int xorr = 0;
+        for (int i = 0; i < n; i++) {
+            xorr = xorr ^ nums[i];
+        }
+        return xorr;
+    }
+}
+```
+
